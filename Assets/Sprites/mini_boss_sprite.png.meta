@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 8330156af6b65cd479f3913b769fc0e9
+guid: fee3b8aae08321e4382b99e8506a731e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1877801752599982683
-    second: player_idle_sprite_0
+      213: -7286913283954045170
+    second: mini_boss_sprite_0
   - first:
-      213: -7203403074943062520
-    second: player_idle_sprite_1
+      213: 7747736489927284657
+    second: mini_boss_sprite_1
   - first:
-      213: -4382969344160926803
-    second: player_idle_sprite_2
+      213: -9103991510604742436
+    second: mini_boss_sprite_2
   - first:
-      213: 8832823808708968920
-    second: player_idle_sprite_3
+      213: 4806191390376361847
+    second: mini_boss_sprite_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,89 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle_sprite_0
+      name: mini_boss_sprite_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 48
+        y: 3
+        width: 240
+        height: 43
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ad0ca94145b0f5e0800000000000000
-      internalID: -1877801752599982683
+      spriteID: e0f08d8d9feafda90800000000000000
+      internalID: -7286913283954045170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_sprite_1
+      name: mini_boss_sprite_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 48
+        x: 239
+        y: 3
+        width: 146
+        height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80eef00911f580c90800000000000000
-      internalID: -7203403074943062520
+      spriteID: 1b7927fc94d758b60800000000000000
+      internalID: 7747736489927284657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_sprite_2
+      name: mini_boss_sprite_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 48
+        x: 384
+        y: 3
+        width: 49
+        height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da37cdb7a909c23c0800000000000000
-      internalID: -4382969344160926803
+      spriteID: cd08b34c4ff18a180800000000000000
+      internalID: -9103991510604742436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_idle_sprite_3
+      name: mini_boss_sprite_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 48
+        x: 432
+        y: 3
+        width: 192
+        height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d106b9a47e749a70800000000000000
-      internalID: 8832823808708968920
+      spriteID: 77f7ce1fa9503b240800000000000000
+      internalID: 4806191390376361847
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f7df1eb509f4d234f93a83bdb8dc99bc
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -208,14 +208,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      player_idle_sprite_0: -1877801752599982683
-      player_idle_sprite_1: -7203403074943062520
-      player_idle_sprite_2: -4382969344160926803
-      player_idle_sprite_3: 8832823808708968920
+      mini_boss_sprite_0: -7286913283954045170
+      mini_boss_sprite_1: 7747736489927284657
+      mini_boss_sprite_2: -9103991510604742436
+      mini_boss_sprite_3: 4806191390376361847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
